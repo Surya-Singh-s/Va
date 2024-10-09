@@ -3,29 +3,76 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Study Materials - Career Insights</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Surydeep Singh - Links</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+        }
+
+        .container {
+            text-align: center;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            width: 300px;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        p {
+            color: #555;
+            margin: 10px 0 20px;
+        }
+
+        .links {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .link {
+            text-decoration: none;
+            padding: 10px;
+            background-color: #6200ea;
+            color: white;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        .link:hover {
+            background-color: #3700b3;
+        }
+
+        /* Adding JavaScript functionality */
+        .link:active {
+            transform: scale(0.95);
+        }
+    </style>
 </head>
 <body>
-    <header>
-        <h1>Study Materials</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="careers.html">Careers</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
     <div class="container">
-        <h2>Access Your Study Materials</h2>
-        <p>Click the link below to access all your study materials:</p>
-        <a href="https://drive.google.com/drive/folders/1qvFRgL01R2RfhdlxUZbY23Z8ty9IaGww" class="drive-link" target="_blank">Open Study Materials</a>
+        <h1>Surydeep Singh</h1>
+        <p>Computer Science and Engineering Student</p>
+        <div class="links">
+            <a href="https://www.linkedin.com/in/suryadeep-singh-0a4615261?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="link" target="_blank">LinkedIn Profile</a>
+            <a href="https://github.com/surya-singh-s" class="link" target="_blank">GitHub Profile</a>
+            <a href="https://surya-singh-s.github.io/Project-1/" class="link" target="_blank">Portfolio</a>
+            <a href="mailto:surya01785@gmail.com" class="link">Email Me</a>
+        </div>
     </div>
-    <footer>
-        <p>&copy; 2024 Career Insights. All Rights Reserved.</p>
-    </footer>
-    <script src="script.js"></script>
+    <script>
+        // Optional JavaScript functionality
+        console.log("Welcome to Surydeep Singh's link page!");
+    </script>
 </body>
 </html>
